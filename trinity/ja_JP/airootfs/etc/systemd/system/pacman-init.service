@@ -10,7 +10,7 @@ After=etc-pacman.d-gnupg.mount
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/usr/bin/pacman-key --init
-ExecStart=/usr/bin/pacman-key --populate archlinux univalent chaotic
+ExecStart=/usr/bin/pacman-key --populate archlinux univalent chaotic trinity
 
 [Install]
 WantedBy=multi-user.target
